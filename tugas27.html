@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 27 CSS - NIOMIC</title>
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/bootstrap-grid.css" />
+    <style>
+      * {
+        margin: 0;
+      }
+      .row {
+        margin-top: 50px;
+      }
+      div {
+        border: 1px solid white;
+        color: #ffffff;
+
+        align-items: center;
+      }
+      .col-xxl-12 {
+        background: skyblue;
+      }
+      .col-xl-8 {
+        background: green;
+        position: relative;
+        top: -12px;
+        left: 15px;
+        width: 950px;
+      }
+      .col-lg-6 {
+        background: blue;
+        position: relative;
+        top: -12px;
+        left: 15px;
+        width: 550px;
+      }
+      .col-md-4 {
+        background: red;
+        position: relative;
+        top: -12px;
+        left: 15px;
+        width: 300px;
+      }
+      .col-sm-8 {
+        background: yellow;
+        position: relative;
+        top: -12px;
+        left: 15px;
+        height: 30px;
+        width: 100px;
+      }
+      .col-xs {
+        background: purple;
+        position: absolute;
+        top: 0px;
+        left: 15px;
+        width: 23px;
+        height: 23px;
+        left: 2px;
+        top: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="container"> -->
+    <div class="row">
+      <div class="col-xxl-12">
+        column
+        <div class="col-xl-8">
+          column
+          <div class="col-lg-6">
+            column
+            <div class="col-md-4">
+              column
+              <div class="col-sm-8">
+                column
+                <div class="col-xs">column</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+  </body>
+</html>
